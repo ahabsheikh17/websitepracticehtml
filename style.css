@@ -1,0 +1,40 @@
+body {
+  background-color: bisque;
+}
+nav {
+  display: flex;
+
+  border: 2px solid black;
+  height: 60px;
+  align-items: center;
+  justify-content: space-around;
+  background: chartreuse;
+  text-decoration: none;
+}
+
+nav > ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  background-color:purple;
+}
+
+h1 {
+  color: purple;
+  size: 10px;
+  text-align: center;
+  border: 2px double bisque;
+  background: chartreuse;
+}
+
+footer {
+  background: chartreuse;
+  color: purple;
+  text-align: center;
+  height: auto;
+}
